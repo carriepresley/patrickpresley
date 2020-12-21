@@ -9,7 +9,6 @@ import { githubButtons } from '../../mock/data';
 const Footer = () => {
   const { footer } = useContext(PortfolioContext);
   const { networks } = footer;
-  const { isEnabled } = githubButtons;
 
   return (
     <footer className="footer navbar-static-bottom">
@@ -38,13 +37,8 @@ const Footer = () => {
         </div>
         <hr />
         <p className="footer__text">
-          © {new Date().getFullYear()} {' '}
-          <a href="https://github.com/cobidev" target="_blank" rel="noopener noreferrer">
-            Patrick Presley
-          </a>
+          © {new Date().getFullYear()} {' '} Patrick Presley
         </p>
-
-        {isEnabled && <GithubButtons />}
       </Container>
     </footer>
   );

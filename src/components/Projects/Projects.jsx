@@ -45,7 +45,7 @@ const Projects = () => {
                       <div>
                         <p>
                           {info ||
-                            "If you're in the market for some eyewear, check out the Ray-Ban dealer locator."}
+                            "If you're in the market for some eyewear, check out the Ray-Ban dealer locator and support your local shop."}
                         </p>
                         <p className="mb-4">{info2 || ''}</p>
                       </div>

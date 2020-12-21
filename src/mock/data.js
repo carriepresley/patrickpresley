@@ -29,7 +29,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: 'Ray-Ban Dealer Locator',
+    title: 'Support your local Ray-Ban dealer!',
     info: '',
     info2: '',
     url: '',

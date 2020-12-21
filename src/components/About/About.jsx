@@ -42,7 +42,7 @@ const About = () => {
                     "Hey, what's up? I'm Patrick Presley. I've wracked up almost 20 years of eyewear sales experience in the optical, retail, and outdoor industries.  I've had the opportunity to partner with brands such as Ralph Lauren, Prada, Giorgio Armani, Smith Optics, Costa, and Spy Optic. "}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphTwo || "I'm stoked to have spent the last 5 years with Ray-Ban as a sales representative in Houston, most recently promoted to Ray-Ban Brand Ambassador. The brand, the company, and the people I get to work with on the daily, they're some of the best in the industry. "}
+                  {paragraphTwo || "I'm stoked to have spent the last 4 years with Ray-Ban as a sales representative in Houston, most recently promoted to Ray-Ban Brand Ambassador. The brand, the company, and the people I get to work with on the daily, they're some of the best in the industry. "}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">

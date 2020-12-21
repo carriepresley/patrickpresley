@@ -11,21 +11,15 @@ const Contact = () => {
   return (
     <section id="contact">
       <Container>
-        <Title title="Contact" />
-        <Fade bottom duration={1000} delay={800} distance="30px">
-          <div className="contact-wrapper">
-            <p className="contact-wrapper__text">
-              {cta || 'Interested in Ray-Ban and you live in TEXAS, let me know!'}
-            </p>
-            <a
+        <Fade bottom duration={1000} delay={800} distance="30px"> 
+           <a
               target="_blank"
               rel="noopener noreferrer"
               className="cta-btn cta-btn--resume"
               href={email ? `mailto:${email}` : 'p'}
             >
-              {btn || "Let's Talk"}
+              {btn || "Email me!"}
             </a>
-          </div>
         </Fade>
       </Container>
     </section>

@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'https://www.linkedin.com/in/patrick-presley-12ab5b18/', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -29,37 +29,19 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
+    title: 'Ray-Ban Dealer Locator',
     info: '',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
+    repo: 'https://www.ray-ban.com/usa/store-locator', // if no repo, the button will not show up
+  }
 ];
 
 // CONTACT DATA
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'presley.rayban@gmail.com',
 };
 
 // FOOTER DATA
@@ -67,23 +49,18 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/patrick-presley-12ab5b18/',
     },
     {
       id: nanoid(),
-      name: 'github',
-      url: '',
+      name: 'instagram',
+      url: 'https://www.instagram.com/patrick__presley/?hl=en',
+    },
+    {
+      id: nanoid(),
+      name: 'twitter',
+      url: 'https://twitter.com/presleypatrick?lang=en',
     },
   ],
 };
